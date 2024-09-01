@@ -23,6 +23,13 @@ a {
   width:50%;
 }
 
+td 
+{
+  font-weight: normal;
+  text-align: center; 
+  vertical-align: middle;
+}
+
 header {
   background: #db7918;
   padding: .5em 3em;
@@ -191,8 +198,8 @@ a:active{
 }
 @media screen and (max-width:480px)
 {
-  blockquote{
-  float: none;
+  .center{
+    min-width: 250px
   }
 
   header nav a{
@@ -214,5 +221,4 @@ a:active{
   header nav div{
   display: none;
   }
-
 }

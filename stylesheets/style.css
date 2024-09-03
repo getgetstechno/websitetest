@@ -13,7 +13,7 @@ body {
   }
 
 a {
-  color: #105672;
+  color: #147ee8;
 }
 
 .center {
@@ -33,7 +33,7 @@ td
 header {
   background: #db7918;
   padding: .5em 3em;
-  color: #144de8;
+  color: #eee;
   line-height: 1;
 }
 
@@ -92,7 +92,7 @@ article{
 }
 
 footer{
-  background: #333;
+  background: #db7918;
   color: #fff;
   padding: .1em 3em;
 }
@@ -140,7 +140,8 @@ a:active{
   position: relative;
   overflow: hidden;
   display: table;
-  background: #bbb;
+  background: #111;
+  margin:1em;
 }
 
 #tabs nav a
@@ -148,8 +149,9 @@ a:active{
   width:150px;
   display:table-cell;
   padding:1em;
+  margin:1em;
   text-align:center;
-  color: #333;
+  color: #147ee8;
 }
 
 #tabs nav a:hover,#tabs nav a:focus
@@ -159,7 +161,7 @@ a:active{
 
 #tabs article
 {
-  padding:2em;
+  padding:1em;
 }
 
 .js-on #tabs article.active
